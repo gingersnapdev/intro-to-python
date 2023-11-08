@@ -16,6 +16,14 @@ print(c, type(c))
 d = 4.5
 print(f"\nFloats:\n", d, type(d))
 
+# booleans
+# either equal to True or False
+# used to compare things
+boo = 1>4
+print(f'\nboo is: {boo}\n')
+boo2 = 1<4
+print(f'\nboo2 is: {boo2}\n')
+
 # lists
 # it's the same as an array
 # these are mutable = you can change the values once you create it
