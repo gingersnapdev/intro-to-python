@@ -7,7 +7,7 @@ class person:
     favorite_fruit = "apple"
     job = 'eastern european staff blockchain developer III'
 
-# create a new instance of your class by doing this
+# create an object by doing this
 vi = person()
 
 # in my pretend little world:
