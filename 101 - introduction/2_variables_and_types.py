@@ -27,25 +27,28 @@ print(f'\nboo2 is: {boo2}\n')
 # lists
 # it's the same as an array
 # these are mutable = you can change the values once you create it
+# these are ordered
+# you can iterate (list[1], list[2], etc) through a list
+# you can have duplicate values in a list
 # python just calls them lists
 e = [1, 2, 3, 4, 5]
 print(f"\nLists:\n", e, type(e))
 
 # sets
-# i have no idea what a set is
-# these are immutable = you cannot change it once its created
-# things in a set can be different data types
-# not ordered, cannot be accessed by its positional index
-# does not allow duplicate values
-# notice how Austin appears twice when i declare the set, but only appears once when i print the set
+# a type of array, has some cool built-in features
+# these are mutable (you can change a set and its items once its created)
+# these are unordered
+# you cannot iterate (set[1], set[2], etc) to get an individual value
+# you cannot have duplicate elements
 f = {"Austin", "Sweeney", 27.4, 1996, False, "Austin"}
 print(f"\nSets:\n", f, type(f))
 
 # tuples
-# i also have no idea what this is
-# these are mutable = you can change the values once you create it
+# another type of array with some of its own unique traits
+# there are immutable (you cannot change a tuple or its items once its created)
 # these are ordered
-# allow duplicate values
+# you can iterate (tuple[1], tuple[2], tuple[3], etc) through a tuple
+# you can have duplicate elements
 g = ("Lotito", "Anthony", 27.5, 1997, True, "Anthony")
 print(f"\nTuples:\n", g, type(g))
 
